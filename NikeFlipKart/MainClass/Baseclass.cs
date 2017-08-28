@@ -22,9 +22,8 @@ namespace NikeFlipKart
 		{
 			Config.PropertiesCollection.driver = new ChromeDriver();
 			Config.PropertiesCollection.driver.Url = "https://www.flipkart.com/";
-			System.Console.WriteLine("----- Chrome Driver intialized -----");
 
-			//intiating wait for elements.
+			//initializing  wait for elements.
 			WebDriverWait wait = new WebDriverWait(Config.PropertiesCollection.driver, TimeSpan.FromMinutes(1));
 			Config.PropertiesCollection.driver.Manage().Window.Maximize();
 		}
