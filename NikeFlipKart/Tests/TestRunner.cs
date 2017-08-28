@@ -15,7 +15,7 @@ using OpenQA.Selenium.Support.UI;
 namespace NikeFlipKart.Tests
 {
 
-
+	[TestFixture]
 	class TestRunner : Baseclass
 	{
 

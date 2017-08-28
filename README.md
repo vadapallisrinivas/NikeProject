@@ -3,7 +3,7 @@
 Please make sure Visual Studio in your system.
 Please make sure Chrome browser in your system.
 
-# Steps To Instructions
+# Steps for Running Project.
 > Clone the project.
 > Open NikeFlipKartSolution.sln using Visual Studio 
 > Open Tests\ TestRunner.cs file
